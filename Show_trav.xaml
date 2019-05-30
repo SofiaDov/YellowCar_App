@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Show_trav">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Button Text="Добавить" Command="{Binding CreateFriendCommand}" IsEnabled="{Binding IsLoaded}" />--><!--
+            <ListView x:Name="travels" ItemsSource="{Binding sort}"
+              >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout>
+                                    <Label Text="{Binding From}" FontSize="Medium" />
+                                    <Label Text="{Binding Where}" FontSize="Small" />
+                                    <Label Text="{Binding Name}" FontSize="Small" />
+                                    <Label Text="{Binding Date}" FontSize="Small" />
+                                    <Label Text="{Binding Phone}" FontSize="Small" />
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
+            <!--<StackLayout IsVisible="{Binding IsBusy}"
+                    HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Padding="20">
+                <Label Text="Загрузка данных..." TextColor="Gray" HorizontalOptions="Center" />
+                <ActivityIndicator IsRunning="{Binding IsBusy}" Color="Accent" >
+                </ActivityIndicator>
+            </StackLayout>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

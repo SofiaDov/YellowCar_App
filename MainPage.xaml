@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2"
+             x:Class="App2.MainPage">
+
+    <StackLayout Margin="20" x:Name="stack_main">
+        <!-- Place new controls here -->      
+        <!--<Label Text="Yellow Car"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" 
+               FontSize="36"
+               TextColor="Yellow"/>
+        <Label Text="Шукай попутчиків разам з нами))" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" 
+               FontSize="18"/>
+        <Button x:Name="enter" Text="Увійти" VerticalOptions="Start" />
+        <Button x:Name="registr" Text="Зареєструватися" VerticalOptions="Start" />-->
+        <!--<StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+        <Button x:Name="search_trav" Text="Знайти попутку" 
+           Clicked="search_trav_Clicked" VerticalOptions="CenterAndExpand" />
+            <Button x:Name="add_trav" Text="Додати поїздку" 
+           Clicked="add_trav_Clicked" VerticalOptions="CenterAndExpand" />
+        </StackLayout>-->
+    </StackLayout>
+
+</ContentPage>
